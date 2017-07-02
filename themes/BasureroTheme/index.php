@@ -27,11 +27,21 @@ get_header(); ?>
 				</header>
 
 			<?php
-			endif;
+		endif; ?>
+				<div class="entry-content">
+				<figure id="attachment_49" style="width: 219px" class="wp-caption aligncenter"><img class="wp-image-49 size-full" src="http://13.55.209.135/digibasurero/wp-content/uploads/2017/07/imgresizer.jpeg" alt="" width="219" height="288" pagespeed_url_hash="2647237099" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><figcaption class="wp-caption-text">Hi Mr. Poging Trasher</figcaption></figure>
+		<p>&nbsp;</p>
+		<figure id="attachment_51" style="width: 300px" class="wp-caption aligncenter"><img class="wp-image-51 size-medium" src="http://13.55.209.135/digibasurero/wp-content/uploads/2017/07/l25-300x300.png" alt="" width="300" height="300" srcset="http://13.55.209.135/digibasurero/wp-content/uploads/2017/07/l25-300x300.png 300w, http://13.55.209.135/digibasurero/wp-content/uploads/2017/07/l25-150x150.png 150w, http://13.55.209.135/digibasurero/wp-content/uploads/2017/07/l25.png 420w" sizes="(max-width: 300px) 100vw, 300px" pagespeed_url_hash="1901316867" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+			<figcaption class="wp-caption-text">You are a level 25 Environmental saver!</figcaption>
+			<figcaption class="wp-caption-text">Gain more level by sharing information about Waste Mangement in social media</figcaption>
+		</figure>
+			</div>
+			<h1>Nagbabagang Balita!</h1>
+			<?php
 
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
-
+				// echo 'News';
 				/*
 				 * Include the Post-Format-specific template for the content.
 				 * If you want to override this in a child theme, then include a file

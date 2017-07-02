@@ -24,7 +24,9 @@
 				if ( get_the_logo_url() ) { ?>
 				    <div id="site-header">
 						<?php the_custom_logo(); ?>
-						Digital Basurero
+						<br />
+						<h2>Digital Basurero</h2>
+						<h6>Waste Management Community | Buy and Sell Scrap</h6>
 					</div> <?php
 				} else {
 					if ( is_front_page() && is_home() ) { ?>
@@ -41,7 +43,7 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bootstrapfast' ); ?></button>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'bootstrapfast' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation --> <?php
 				if ( main_sidebar_placement() ) {
