@@ -24,6 +24,7 @@
 				if ( get_the_logo_url() ) { ?>
 				    <div id="site-header">
 						<?php the_custom_logo(); ?>
+						Digital Basurero
 					</div> <?php
 				} else {
 					if ( is_front_page() && is_home() ) { ?>
